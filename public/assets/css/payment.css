@@ -1,0 +1,119 @@
+.section h4 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.how-section {
+    background: #ebf5f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 130px #8ea4ac;
+}
+
+.payment-options {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.payment-card {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #008cb7;
+    border-radius: 8px;
+    padding: 15px 20px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    color: #008cb7;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hide the radio button */
+.payment-card input[type="radio"] {
+    display: none;
+}
+
+/* Default card content style */
+.payment-card .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Default radio circle style */
+.payment-card .radio-circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #008cb7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.payment-card .radio-circle::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+/* Change border color and circle color when selected */
+.payment-card input[type="radio"]:checked + .card-content .radio-circle {
+    border-color: #f25a29;
+    background-color: #f25a29;
+}
+
+.payment-card input[type="radio"]:checked + .card-content .radio-circle::after {
+    background-color: white;
+}
+
+/* Change text color and background color of the card when selected */
+.payment-card input[type="radio"]:checked + .card-content {
+    color: #f25a29;
+}
+
+.payment-card input[type="radio"]:checked + .card-content {
+    background-color: #fef0e9; /* Change the background color here */
+    border-color: #f25a29;
+    color: #f25a29;
+    padding: 10px;
+}
+
+.payment-card input[type="radio"]:checked + .card-content .radio-circle {
+    background-color: #f25a29;
+    border-color: #f25a29;
+}
+
+/* Style for checkout button */
+.btn-lg {
+    padding: 10px 30px;
+    font-size: 18px;
+}
+.payment-head{
+    text-align: center;
+}
+#payment-table, #payment-table tr,#payment-table th,#payment-table td{
+    border: 1px solid #c1ced0;
+}
+#payment-table {
+margin-bottom: 20px;
+}
+#payment-table th{
+font-size: 20px;
+}
+#payment-table td{
+font-size: 16px;
+font-weight: bold;
+}

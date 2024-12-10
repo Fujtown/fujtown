@@ -1,0 +1,77 @@
+.box-register{
+    padding: 0 !important;
+}
+select{
+    width: 100%;
+    border-radius: 10px;
+    background: inherit !important;
+    border: 1px solid #aeccd4;
+    padding-left: 10px;
+    color: #3d5760;
+    font-weight: 600;
+}
+input,select{
+    height: 45px !important;
+}
+#map{
+    width:100%; height:400px;border-radius: 5px;
+}
+.map-label{
+    padding-bottom: 10px;
+    color: #3d5760;
+}
+.select2-container .select2-selection--single{
+    height: 45px !important;
+}
+.select2-container--default .select2-selection--single{
+    border: 1px solid #cce2e7 !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 40px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 40px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__placeholder{
+    color: #93a8b0 !important;
+}
+.panel-collapse.collapse {
+    display: none;
+}
+
+.panel-collapse.collapse.show {
+    display: block;
+}
+.panel-heading{
+    border: 1px solid #cde2e7;
+    padding: 5px;
+    border-radius: 5px;
+}
+.panel-heading a{
+   color: #3d5760;
+}
+input[type="file"]{
+    padding: 9px !important;
+}
+.label span{
+    position: relative;
+    bottom: 17px;
+    padding-left: 5px;
+}
+#editor-container{
+    height: 300px;
+    margin-bottom: 10px;
+}
+.slidercaptcha .card-body{
+    height: 230px;
+}
+.ql-container.ql-snow,.ql-toolbar.ql-snow {
+    border: 1px solid #cde2e7 !important;
+}
+.btn-warning{
+    background: #f25a29 !important;
+    border: none !important;
+    color: #f9e5bb !important;
+    padding: 20px !important;
+    font-size: 16px !important;
+}

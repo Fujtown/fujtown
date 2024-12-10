@@ -1,0 +1,27 @@
+.box-banner-login{
+    margin-top: 50px;
+}
+.box-banner-login h2{
+    text-align: center;
+}
+.cb-container .checkmark:after{
+    background: #008cb7 url(../imgs/page/register/check.svg) no-repeat center;
+}
+.color-success {
+    color: #008cb7;
+}
+.card-header{
+    background: rgb(235 245 248) !important;
+}
+.card-header span{
+    color: #3d5760;
+}
+input{
+    height: 45px !important;
+}
+.slidercaptcha .card-body{
+    height: 230px;
+}
+.box-register {
+    padding: 20px 130px 0px 0px;
+}

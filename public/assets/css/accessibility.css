@@ -1,0 +1,207 @@
+.recite-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    background-color: #ffffff; /* Background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visual effect */
+    display: none;
+}
+
+.recite-row{
+    padding: 5px;
+    background: #ebf5f8;
+    border: 1px solid lightblue;
+}
+.btn-minus{
+    border: 0;
+    padding: 5px;
+    width: 40px;
+    background: #008cb7;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+.btn-plus{
+    border: 0;
+    padding: 5px;
+    width: 40px;
+    background: #008cb7;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+.btn-color{
+    border: 0;
+    padding: 5px;
+    width: 40px;
+    background: #008cb7;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+.btn-language{
+    border: 0;
+    padding: 5px;
+    width: 40px;
+    background: #046a8a;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+.btn-cursor{
+    border: 0;
+    padding: 5px;
+    width: 40px;
+    background: #124395;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+.btn-reset{
+    border: 0;
+    padding: 5px;
+    width: 40px;
+    background: #000000;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+/* Modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background overlay */
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.close {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+/* Headings and Labels */
+.modal-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.modal-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Radio Button Styling */
+label {
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Reset Button */
+#resetCursor {
+    background-color: #f25a29;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#resetCursor:hover {
+    background-color: #e14a1f;
+}
+
+/* Flexbox for alignment */
+.cursor-size, .cursor-color {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cursor-size label, .cursor-color label {
+    margin-right: 15px;
+}
+
+  /* Cursor styles */
+body.black-cursor.small-cursor { cursor: url('/assets/imgs/cursor/pointer-black-sm.svg'), auto; }
+body.black-cursor.medium-cursor { cursor: url('/assets/imgs/cursor/pointer-black-md.svg'), auto; }
+body.black-cursor.large-cursor { cursor: url('/assets/imgs/cursor/pointer-black-lg.svg'), auto; }
+body.black-cursor.xlarge-cursor { cursor: url('/assets/imgs/cursor/pointer-black-xl.svg'), auto; }
+
+body.white-cursor.small-cursor { cursor: url('/assets/imgs/cursor/pointer-white-sm.svg'), auto; }
+body.white-cursor.medium-cursor { cursor: url('/assets/imgs/cursor/pointer-white-md.svg'), auto; }
+body.white-cursor.large-cursor { cursor: url('/assets/imgs/cursor/pointer-white-lg.svg'), auto; }
+
+
+.color-option {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.color-option:hover {
+    border-color: #333;
+}
+
+#enableMonochrome,#resetDefault{
+    margin-bottom: 10px;
+    border: 0;
+    padding: 5px;
+    background: cadetblue;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#translateButton{
+    margin-top: 10px;
+    border: 1px solid #607D8B;
+    padding: 10px;
+    color: white;
+    background: #607D8B;
+    border-radius: 5px;
+}

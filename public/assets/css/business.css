@@ -1,0 +1,95 @@
+.b-list a {
+    color: #008cb7;
+    border: solid 1px #5abedd;
+    line-height: 36px;
+    height: 36px;
+    display: block;
+    margin: 0 20px 20px 0;
+    padding: 0 80px 0 15px;
+    border-radius: 20px;
+    background: #fff;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.b-list a span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 36px;
+    height: 36px;
+    width: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background: #c1d9dd;
+    color: #f25a29;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.listing-card .s{
+    float:left;
+    line-height: 20px;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #5d6a6e;
+}
+.listing-card .address{
+    padding-top: 10px;
+    color: #5d6a6e;
+}
+
+.listing-card .s span {
+    margin-left: 10px;
+}
+.listing-card .s img {
+    position: relative;
+    top: 3px;
+}
+.listing-card .logo {
+    text-align: right;
+}
+.listing-card .logo img{
+    border: 1px solid #eeecec;
+    border-radius: 6px;
+}
+.listing-card h4 a{
+    color: #3d5760 !important;
+}
+.empty-list h4{
+    text-align: center;
+    color: #3d5760;
+}
+.ribbon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    overflow: hidden;
+    width: 85px;
+    height: 85px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(rgb(242, 90, 41) 0%, rgb(242, 90, 41) 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px;
+    right: -21px;
+}

@@ -1,0 +1,18 @@
+.listar-select:after{
+    top: 30px !important;
+}
+.listar-select select{
+    cursor: pointer;
+}
+.listare-profilepic{
+    text-align: center;
+}
+.listare-profilepic img{
+    width: 200px !important;
+}
+.btn-info{
+    background-color: #6fbf17 !important;
+    width: 100px;
+    font-size: 18px !important;
+    border: 1px solid #6fbf17 !important;
+}
